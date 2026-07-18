@@ -1,0 +1,21 @@
+{
+  "name": "Firefox WASM",
+  "short_name": "Firefox",
+  "description": "Puter's Firefox WASM build as a PWA because why wouldnt you want to run an entire web browser in (presumably) ChromeOS using Chrome itself?",
+  "version": "0.0.1",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay"],
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./logo128.webp",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
